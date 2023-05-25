@@ -1,0 +1,16 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 24, 2023, 8:53:23 PM
+    Author     : alexe
+*/
+
+p {
+    background: red;
+    font: Comic Sans MS;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
