@@ -5,16 +5,16 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.0</version>
+		<version>3.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tienda</groupId>
 	<artifactId>tienda</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>Tienda</name>
-	<description>Proyecto Tienda a desarrollar en clase</description>
+	<version>1</version>
+	<name>tienda</name>
+	<description>Proyecto hecho en clase de Web y Patrones</description>
 	<properties>
-		<java.version>20</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -22,7 +22,7 @@
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
+                        <groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
@@ -42,18 +42,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-                <dependency>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-data-jpa</artifactId>
-                </dependency>
-                <dependency>
-                    <groupId>mysql</groupId>
-                    <artifactId>mysql-connector-java</artifactId>
-                    <version>8.0.33</version>
-                </dependency>
 	</dependencies>
-
-	<build>
+        <build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

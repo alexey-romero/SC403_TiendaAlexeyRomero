@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<html th:attr="lang=${lang}" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head th:insert="~{template.html :: head}"></head>
     <body>
-        <div>TODO write content</div>
+        <div th:insert="~{template.html :: nav}"></div>
+        <div th:insert="~{template.html :: featured-product}"></div>
+        <section class="container py-5">
+            <div class="row text-center pt-3">
+                <div class="col-lg-6 m-auto">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Descripcion</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Imagen</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="product : ${products}">
+                                <td><span th:text="${product.id}"></span></td>
+                                <td><span th:text="${product.descripcion}"> </span></td>
+                                <td><span th:text="${product.precio}"> </span></td>
+                                <td><img alt="..." class="card-img-top" th:src="${product.ruta_imagen}">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <div th:insert="~{template.html :: footer}"></div>
+        <div th:insert="~{template.html :: scripts}"></div>
     </body>
 </html>
