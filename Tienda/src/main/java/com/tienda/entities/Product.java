@@ -3,11 +3,15 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "producto")
 public class Product {
+
     @Id
     @Column(name = "id_producto")
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private Integer id_categoria;
+
+    @ManyToOne
+    @JoinColumn(name = "id_categoria")
+    private Category category;
     private String descripcion;
     private String detalle;
     private Integer precio;
@@ -15,21 +19,23 @@ public class Product {
     private String ruta_imagen;
     private boolean activo;
 
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
     public Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setId(Integer id_producto) {
+        this.id = id_producto;
     }
 
-    public Integer getId_categoria() {
-        return id_categoria;
-    }
 
-    public void setId_categoria(Integer id_categoria) {
-        this.id_categoria = id_categoria;
-    }
 
     public String getDescripcion() {
         return descripcion;
@@ -78,6 +84,4 @@ public class Product {
     public void setActivo(boolean activo) {
         this.activo = activo;
     }
-    
-    
 }
