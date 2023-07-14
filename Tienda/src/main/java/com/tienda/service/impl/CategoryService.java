@@ -11,4 +11,5 @@ public class CategoryService extends BaseService<Category, Integer> implements I
         super(categoryRepository);
     }
 
+    
 }
