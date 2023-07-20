@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html th:attr="lang=${lang}" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-<head th:fragment="head">
-    <title>Alexey's Black Market</title>
-    <meta charset="utf-8">
+<html th:attr="lang=${lang}"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6>
+      <head th:fragment=" head">
+<title>Alexey's Black Market</title>
+<meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../img/apple-icon.png" rel="apple-touch-icon">
-    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../img/apple-icon.png" rel="apple-touch-icon">
+<link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/templatemo.css" rel="stylesheet">
-    <link href="../css/custom.css" rel="stylesheet">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/templatemo.css" rel="stylesheet">
+<link href="../css/custom.css" rel="stylesheet">
 
-    <!-- Load fonts style after rendering the layout styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap"
-          rel="stylesheet">
-    <link href="../css/fontawesome.min.css" rel="stylesheet">
+<!-- Load fonts style after rendering the layout styles -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap"
+      rel="stylesheet">
+<link href="../css/fontawesome.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -203,13 +206,13 @@
 <!-- Start Featured Product -->
 <section class="bg-light" th:fragment="featured-product">
     <div class="container py-5">
-<!--        <div class="row text-center py-3">-->
-<!--            <div class="col-lg-6 m-auto">-->
-<!--                <h1 class="h1" th:text="#{index.Featured.Product}"></h1>-->
-<!--                <p th:text="#{index.Featured.Text}">-->
-<!--                </p>-->
-<!--            </div>-->
-<!--        </div>-->
+        <!--        <div class="row text-center py-3">-->
+        <!--            <div class="col-lg-6 m-auto">-->
+        <!--                <h1 class="h1" th:text="#{index.Featured.Product}"></h1>-->
+        <!--                <p th:text="#{index.Featured.Text}">-->
+        <!--                </p>-->
+        <!--            </div>-->
+        <!--        </div>-->
         <div class="row">
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
