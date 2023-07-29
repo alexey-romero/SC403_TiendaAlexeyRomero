@@ -2,7 +2,7 @@
 <html th:attr="lang=${lang}"
       xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6>
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
 <head th:insert="~{template.html :: head}"></head>
 <body>
 <div th:insert="~{template.html :: nav}"></div>
@@ -10,7 +10,7 @@
     <div class="row text-center pt-3">
         <div class="col-lg-6 m-auto">
             <button class="btn btn-primary open-modal" data-bs-target="#Modal"
-                    data-bs-toggle="modal" type="button">
+                    data-bs-toggle="modal" type="button" sec:authorize="hasRole('ROLE_ADMIN')">
                 Create new category
             </button>
             <br>
