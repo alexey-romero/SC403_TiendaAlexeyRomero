@@ -10,10 +10,6 @@ SC-403 - Tienda - Proyecto de curso
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">Tienda - Alexey Romero</h3>
 
