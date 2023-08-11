@@ -17,13 +17,13 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * ![Spring-boot]
 * ![Spring-Security]
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/alexey-romero/SC403_TiendaAlexeyRomero.svg?style=for-the-badge
 [contributors-url]: https://github.com/alexey-romero/SC403_TiendaAlexeyRomero/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/alexey-romero/SC403_TiendaAlexeyRomero.svg?style=for-the-badge
 [forks-url]: https://github.com/alexey-romero/SC403_TiendaAlexeyRomero/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/alexey-romero/SC403_TiendaAlexeyRomero.svg?style=for-the-badge
 [stars-url]: https://github.com/alexey-romero/SC403_TiendaAlexeyRomero/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/alexey-romero/SC403_TiendaAlexeyRomero.svg?style=for-the-badge
 [issues-url]: https://github.com/alexey-romero/SC403_TiendaAlexeyRomero/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/alexey-romero
