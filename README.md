@@ -11,7 +11,7 @@ SC-403 - Tienda - Proyecto de curso
 
 <br />
 
-<h3 align="center">Tienda - Alexey Romero</h3>
+<h1 align="center">Tienda - Alexey Romero</h1>
 
 ## About The Project
 
