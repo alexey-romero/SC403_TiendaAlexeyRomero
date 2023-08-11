@@ -6,9 +6,9 @@
 
 <br />
 
-<h1 align="center">Tienda - Alexey Romero</h1>
+# Tienda - Alexey Romero
 
-## About The Project
+## About the project
 
 This repository stores the project for the Tienda application developed throughout 15 weeks in the Desarrollo de Aplicaciones Web y Patrones class at Universidad Fidélitas.
 
