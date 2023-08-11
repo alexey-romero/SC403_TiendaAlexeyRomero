@@ -31,12 +31,10 @@ public class ProductService extends BaseService<Product, Integer> implements IPr
         return (List<Product>) this.productRepository.findAll();
     }
 
-    @Override
     public List<Product> getProductos(boolean activos) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    @Override
     public Product getProduct(Product product) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }

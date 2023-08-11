@@ -1,14 +1,26 @@
+
 package com.tienda.entities;
 
-import jakarta.persistence.*;
+/**
+ *
+ * @author lospina
+ */
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import java.io.Serializable;
-import lombok.Data;
+
 import javax.validation.constraints.NotEmpty;
+import lombok.Data;
 
 @Entity
 @Data
 @Table(name = "rol")
 public class Rol implements Serializable {
+
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -20,4 +32,28 @@ public class Rol implements Serializable {
 
     @Column(name = "id_usuario")
     private Long idUsuario;
+    
+    public Long getIdRol() {
+        return idRol;
+    }
+
+    public void setIdRol(Long idRol) {
+        this.idRol = idRol;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public Long getIdUsuario() {
+        return idUsuario;
+    }
+
+    public void setIdUsuario(Long idUsuario) {
+        this.idUsuario = idUsuario;
+    }
+
+    
 }

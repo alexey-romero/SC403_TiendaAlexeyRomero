@@ -1,4 +1,5 @@
 package com.tienda.entities;
+
 import jakarta.persistence.*;
 @Entity
 @Table(name = "producto")

@@ -1,13 +1,21 @@
 package com.tienda.service;
 
 import com.tienda.entities.Category;
-import java.util.List;
 
 public interface ICategoryService extends IBaseService<Category, Integer> {
-    public List<Category> getCategories(boolean activos);
 
-    public Category getCategory(Category category);
 }
+
+//package com.tienda.service;
+//
+//import com.tienda.entities.Category;
+//import java.util.List;
+//
+//public interface ICategoryService extends IBaseService<Category, Integer> {
+//    public List<Category> getCategories(boolean activos);
+//
+//    public Category getCategory(Category category);
+//}
 
 //public interface ICategoryService extends IBaseService<Category, Integer> {
 //    // Se obtiene un listado de Categories en un List
